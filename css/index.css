@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #FFFFFF;
 }
 
 .container {
@@ -7,23 +8,26 @@ body {
     flex-direction: column;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 144px;  
+}
+
 nav {
     display: flex;
     flex-direction: row;
-    width: 1400px;
-    height: 78px;
-    justify-content: flex-start;
     justify-content: space-around;
     align-items: center;
-    margin-left: 144px;
-    margin-top: 20px;
-
+    margin-left: 320px;  
 }
 
 ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-right: 50px;
 }
 
 li {
@@ -35,10 +39,9 @@ li {
     margin: 20px;
 }
 
-img{
+img {
     width: 185.34px;
     height: 31.97px;
-
 }
 
 
@@ -71,7 +74,6 @@ img{
 .navButtons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-left: 0;
-    
+    justify-content: center;  
 }
+
