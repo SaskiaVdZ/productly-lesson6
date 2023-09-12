@@ -85,13 +85,13 @@ li {
 .section {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
     width: 1109px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.first
+
 
 
 .textbox-one {
@@ -180,8 +180,8 @@ li {
 
 
 .second .icon {
-    max-width: 35px;
-    max-height: 35px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .second h2 {
@@ -248,14 +248,14 @@ margin-bottom: 30px;
     line-height: 26px;
 }
 
-.third h2 {
+h2 {
     color: #2F281E;
     font-size: 36px;
     font-family:'Poppins', sans-serif;
     font-weight: 700;
 }
 
-.third h4 {
+h4 {
     color: #2F281E;
     font-size: 16px;
     font-family:'Poppins', sans-serif;
@@ -289,12 +289,7 @@ margin-bottom: 30px;
     
 }
 
-.fourth h2 {
-    color: #2F281E;
-    font-size: 36px;
-    font-family:'Poppins', sans-serif;
-    font-weight: 700;
-}
+
 
 
 .checkbox {
@@ -304,4 +299,20 @@ margin-bottom: 30px;
     height: 35px;
 }
 
+.textbox-five{
+    width: 486px;
+}
+
+.imagebox-five{
+    width: 542px;
+}
     
+.fifth p {
+    color: #544837;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word
+}
+
