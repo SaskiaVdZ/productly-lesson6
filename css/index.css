@@ -1,14 +1,13 @@
 body {
-    margin: 0;
+    margin: 0 auto;
     background-color: #FFFFFF;
+    width: 1400px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 1109px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 1100px;
 
 }
 
@@ -16,15 +15,16 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 144px;  
+    
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
-    margin-left: 320px;  
+    margin-left: 200px; /*take margin out*/
+
 }
 
 ul {
@@ -86,12 +86,13 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 144px; 
     width: 1109px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .first
+
 
 .textbox-one {
     width: 518px;
@@ -155,4 +156,71 @@ li {
     flex-direction: row;
     align-items: center;
     margin: 5px;
+}
+
+.second {   
+   display: block;
+    width: 1109px;
+    margin-top: 30px;
+}
+
+.cards {
+ display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+   }
+
+
+.second .icon {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.second h2 {
+    color: #2F281E;
+    font-size: 36px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.second h3 {
+    color: #2F281E;
+    font-size: 22px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+
+.second p {
+    color: #544837;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    width: 240px;
+
+}
+
+.signUpNow {
+    background-color: #FF9900; 
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    width: 175px;
+    height: 53px;
+    color: white;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center; /*needs centering*/
 }
