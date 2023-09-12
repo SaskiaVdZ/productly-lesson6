@@ -258,8 +258,50 @@ margin-bottom: 30px;
 .third h4 {
     color: #2F281E;
     font-size: 16px;
-    font-family: Poppins;
+    font-family:'Poppins', sans-serif;
     font-weight: 700;
     line-height: 26px;
 }
 
+.fourth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px; /*take margin out*/
+    margin-bottom: 30px;
+    }
+
+.imagebox-four {
+    width: 486px;
+    }
+
+.textbox-four {
+    width: 520px;
+}
+
+.fourth p {
+    color: #544837;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+    display: inline-block; 
+    word-wrap: break-word
+    
+}
+
+.fourth h2 {
+    color: #2F281E;
+    font-size: 36px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+
+.checkbox {
+    display: inline-block;
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+    
