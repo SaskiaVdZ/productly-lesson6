@@ -224,3 +224,42 @@ li {
     font-weight: 700;
     text-align: center; /*needs centering*/
 }
+
+.third {
+display: flex;
+justify-content: space-between;
+margin-top: 130px; /*take margin out*/
+margin-bottom: 30px;
+}
+
+.textbox-three {
+    width: 486px;
+}
+
+.imagebox-three {
+    width: 520px;
+}
+
+.third p {
+    color: #544837;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.third h2 {
+    color: #2F281E;
+    font-size: 36px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.third h4 {
+    color: #2F281E;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 26px;
+}
+
